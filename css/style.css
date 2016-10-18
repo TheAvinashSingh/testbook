@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-
+/* HEADER */
 .bg-image {
     background-image: url(../images/backgimage.jpg) !important;
     background-size: cover;
@@ -16,17 +16,18 @@
     font-size: 3em;
     letter-spacing: 5px !important;
 }
+.downtext {
+    font-family: Roboto !important;
+    font-size: 0.8em;
+    letter-spacing: 3px !important;
+}
 .content {
     margin-top: 12%; 
     text-align: center;
     margin-bottom: 10%;
     color: #fff !important;
 }
-.downtext {
-    font-family: Roboto !important;
-    font-size: 0.8em;
-    letter-spacing: 3px !important;
-}
+
 .start-btn {
     padding: 1.5% 3% !important;
     font-size: 1.2em !important;
@@ -74,7 +75,54 @@
     font-size: 1.2em !important;
     text-align: center;
 }
-/* KANIKA CSS */
+/* Middle Tabs */
+
+#image1 {
+	text-align: center;
+	position: relative;
+	padding: 0;
+	display: block;
+}
+
+#image {
+	position: relative;
+}
+
+#float0 {
+	position: absolute;
+	top: 2vmin;
+	left: 20vmin;
+}
+
+#float1 {
+	position: absolute;
+	top: 9vmin;
+	left: 0;
+	right: 0;
+	color: white;
+}
+
+#float2 {
+	position: absolute;
+	top: 13vmin;
+	left: 0;
+	right: 0;
+	color: white;
+
+}
+
+#image:hover {
+	height: 20vmin;
+	width: 38vmin;
+	transition: 0.5s;
+}
+
+.col-md-3 {
+	margin-bottom: 3%;
+}
+
+/* Horizontal Carousal */
+
 .title{
 	margin-top:10px;
 	text-align:center;}
@@ -129,7 +177,7 @@
       .bubble {
           visibility: hidden;
       }
-  /* FOOTER STYLE */
+  /* FOOTER CSS */
 
 body {
     font-family: Roboto,sans-serif;
@@ -205,4 +253,153 @@ body {
 .footertext:hover {
     color: #323232;
     text-decoration: underline;
+}
+
+/* HORIZONTAL SIDEBAR */
+
+
+.btn-success {
+    line-height: 1;
+    font-size: 12px;
+    padding: 16px 20px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    background-color: #3c9d29;
+    border-radius: 100px;
+	}
+	
+	
+
+	.feat-text-head
+	{
+	margin: 8px 0 24px;
+    text-transform: uppercase;
+    font-weight: 300;
+	font-size:30px;
+	}
+	
+	.feat-text-text
+	{
+	margin: 0 0 10px;
+	font-family: Roboto,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+	}
+	.feat-text span{
+	display:block;}
+	.feat-text
+	{height:450px;
+	}
+	
+	.vertical .carousel-inner {
+  height: 100%;
+}
+
+.carousel.vertical .item {
+   transition: 1s ease-in-out top;
+  
+   
+}
+
+.carousel.vertical .active {
+   top: 0;
+}
+
+.carousel.vertical .next {
+   top: 100px;
+}
+
+.carousel.vertical .prev {
+   top: -100px;
+}
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+   top: 0;
+}
+
+.carousel.vertical .active.left {
+   top: -100px;
+}
+
+
+	
+	
+		.ft-content
+	{
+	padding-left:20px;
+    }
+	
+	.user-views	span{
+	display:block;}
+	.title{
+	margin-top:10px;
+	text-align:center;}
+	.item{
+	height:300px;
+	background-color:none;
+	}
+	
+	.item h4{
+	width:70%;
+	text-align:center;}
+	
+	 .item p {
+    max-width: 768px;
+    margin: auto;
+    min-height: 132px;
+    color: #8e9aa9;
+    line-height: 1.9;
+    font-weight: 500;
+	padding-top:30px;
+	padding-bottom:20px;
+}
+/* NUMBERS */
+.numbers {
+    text-align: center;
+    font-family: Roboto;
+    font-size:2.8em;
+    color: #364763;
+}
+.numtext {
+    text-align-last: center;
+    font-family: Roboto;
+    font-size: 0.8em;
+    color: #7c899e;
+}
+/* another image */
+.mainheading2 {
+    font-family: Roboto !important;
+    font-size: 3em;
+    letter-spacing: 5px !important;
+}
+.downtext2 {
+    font-family: Roboto !important;
+    font-size: 0.8em;
+    letter-spacing: 3px !important;
+}
+.bgimage {
+    background-image: url(../images/backgimage.jpg);
+    background-size: cover;
+}
+.content2 {
+    margin-top: 5%; 
+    text-align: center;
+    margin-bottom: 7%;
+    color: #fff !important;
+}
+/* news container */
+.newstext {
+    color: #364763;
+    font-family: Roboto;
+    font-size: 1.2em;
+    margin-right: 1%;
+}
+.news {
+    width: 12%;
+    height: 12%;
 }

@@ -38,11 +38,25 @@
 	$('.carousel').carousel({
    interval: 1500;
 	})
+    var mynav = document.getElementById('mynav');
+    window.onscroll = function() {
+        "use strict";
+        if (document.body.scrollTop >= 200) {
+            mynav.classList.add("navbar-inverse");
+            mynav.classList.remove("transparent")
+        }
+        else {
+            mynav.classList.add("transparent");
+            mynav.classList.remove("navbar-transparent");
+        }
+    }
+    
 
   </script>
         <div class="container-fluid">
+            <!-- Header -->
             <div class="bg-image">
-            <nav class="navbar transparent navbar-fixed-top">
+            <nav class="navbar transparent navbar-fixed-top" id="mynav">
                 <div class="container-fluid">
                     
                     <div class="navbar-header navbar-left">
@@ -100,8 +114,125 @@
                 <h2 class="afternav">Best Exam Preparation for you. Start Now!</h2>
                 <h4 class="afternavtext">Boost your Exam Preparation with TestBook to crack the most popular exams in India. Select <br> your course and get started.</h4>
             </div>
-            <!-- Middle Work -->
-            <div style="background-color:#f7f7f7;" class="user-views">
+            <!-- Middle Tabs -->
+                <div style="background-color:#f7f7f7;padding-top:2%;mrgin-top:5%;" class="container-fluid">
+                    <div class="container">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-4 col-md-3 " id="image1"><img src="images/course-bg-1.jpg" height="130vmin" width="230vmin" id="image" class="img-rounded">       <div class="inner">
+                        <img src="images/bank.svg" id="float0" height="40vmin" width="40vmin">
+                        <h4 id="float1">Bank PO</h4> <p id="float2">IBPS PO, SBI PO</p> </div> </div>
+                      <div class="col-xs-12 col-sm-4 col-md-3 " id="image1"><img src="images/course-bg-1.jpg" height="130vmin" width="230vmin" id="image" class="img-rounded">
+                        <img src="images/bank.svg" id="float0" height="40vmin" width="40vmin">
+                        <h4 id="float1">Bank Clerk</h4> <p id="float2">IBPS Clerk, IBPS RRB, SBI Clerk</p> </div>
+                      <div class="col-xs-12 col-sm-4 col-md-3 " id="image1"><img src="images/course-bg-1.jpg" height="130vmin" width="230vmin" id="image" class="img-rounded">
+                        <img src="images/man.svg" id="float0" height="40vmin" width="40vmin">
+                        <h4 id="float1">SSC CGL</h4> <p id="float2">Tier 1 and Tier 2</p> </div>
+                      <div class="col-xs-12 col-sm-4 col-md-3 " id="image1"><img src="images/course-bg-1.jpg" height="130vmin" width="230vmin" id="image" class="img-rounded">
+                        <img src="images/train.svg" id="float0" height="40vmin" width="40vmin">
+                        <h4 id="float1">Railways</h4> <p id="float2">Railway RRB NTPC</p> </div>
+                      <div class="col-xs-12 col-sm-4 col-md-3 " id="image1"><img src="images/course-bg-1.jpg" height="130vmin" width="230vmin" id="image" class="img-rounded">
+                            <img src="images/insurance.svg" id="float0" height="40vmin" width="40vmin">
+                        <h4 id="float1">Insurance</h4> <p id="float2">LIC AAO, NICL AO, UIICL</p> </div>
+                      <div class="col-xs-12 col-sm-4 col-md-3 " id="image1"><img src="images/course-bg-1.jpg" height="130vmin" width="230vmin" id="image" class="img-rounded">
+                        <img src="images/bank.svg" id="float0" height="40vmin" width="40vmin">
+                        <h4 id="float1">RBI</h4> <p id="float2">RBI Grade B officer</p> </div>
+                      <div class="col-xs-12 col-sm-4 col-md-3 " id="image1"><img src="images/course-bg-1.jpg" height="130vmin" width="230vmin" id="image" class="img-rounded">
+                        <img src="images/dices.svg" id="float0" height="40vmin" width="40vmin">
+                        <h4 id="float1">Aptitude</h4> <p id="float2">Campus Placements</p> </div>
+                      <div class="col-xs-12 col-sm-4 col-md-3 " id="image1"><img src="images/course-bg-1.jpg" height="130vmin" width="230vmin" id="image" class="img-rounded">
+                        <img src="images/current.svg" id="float0" height="40vmin" width="40vmin">
+                        <h4 id="float1">Current Affairs</h4> <p id="float2">Daily CA & GK Quizzes</p> </div>
+                      <div class="col-xs-12 col-sm-4 col-md-3 " id="image1"><img src="images/course-bg-1.jpg" height="130vmin" width="230vmin" id="image" class="img-rounded">
+                        <img src="images/tower.svg" id="float0" height="40vmin" width="40vmin">
+                        <h4 id="float1">BSNL TTA</h4> <p id="float2">BSNL JE</p> </div>
+                      <div class="col-xs-12 col-sm-4 col-md-3 " id="image1"><img src="images/course-bg-1.jpg" height="130vmin" width="230vmin" id="image" class="img-rounded">
+                        <img src="images/engineer.svg" id="float0" height="40vmin" width="40vmin">
+                        <h4 id="float1">GATE CE</h4> <p id="float2">Civil Engineering</p> </div>
+                      <div class="col-xs-12 col-sm-4 col-md-3 " id="image1"><img src="images/course-bg-1.jpg" height="130vmin" width="230vmin" id="image" class="img-rounded">
+                        <img src="images/desktop.svg" id="float0" height="40vmin" width="40vmin">
+                        <h4 id="float1">GATE CS</h4> <p id="float2">Computer Science and Engineering</p> </div>
+                      <div class="col-xs-12 col-sm-4 col-md-3 " id="image1"><img src="images/course-bg-1.jpg" height="130vmin" width="230vmin" id="image" class="img-rounded">
+                        <img src="images/tower.svg" id="float0" height="40vmin" width="40vmin">
+                        <h4 id="float1">GATE EC</h4> <p id="float2">Electronics and Communication</p> </div>
+                      <div class="col-xs-12 col-sm-4 col-md-3 " id="image1"><img src="images/course-bg-1.jpg" height="130vmin" width="230vmin" id="image" class="img-rounded">
+                        <img src="images/current.svg" id="float0" height="40vmin" width="40vmin">
+                        <h4 id="float1">GATE EE</h4> <p id="float2">Electrical Engineering</p> </div>
+                      <div class="col-xs-12 col-sm-4 col-md-3 " id="image1"><img src="images/course-bg-1.jpg" height="130vmin" width="230vmin" id="image" class="img-rounded">
+                        <img src="images/wrench.svg" id="float0" height="40vmin" width="40vmin">
+                        <h4 id="float1">GATE ME</h4> <p id="float2">Mechanical Engineering</p> </div>
+                      <div class="col-xs-12 col-sm-4 col-md-3 " id="image1"><img src="images/course-bg-1.jpg" height="130vmin" width="230vmin" id="image" class="img-rounded">
+                        <img src="images/current.svg" id="float0" height="40vmin" width="40vmin">
+                        <h4 id="float1">SSC JE EE</h4> <p id="float2">SSC JE Electrical</p> </div>
+                      <div class="col-xs-12 col-sm-4 col-md-3 " id="image1"><img src="images/course-bg-1.jpg" height="130vmin" width="230vmin" id="image" class="img-rounded">
+                        <img src="images/wrench.svg" id="float0" height="40vmin" width="40vmin">
+                        <h4 id="float1">SSC JE ME</h4> <p id="float2">SSC JE Mechanical</p> </div>
+
+                        </div>
+                    </div>
+                </div>
+            
+            
+            <!-- Vertical Carousal -->
+            <div class="container-fluid">
+                <div style="margin-left:7%;margin-top:5%;" class="row-fluid">
+
+                    <div id="myCarousel" class="carousel slide vertical">
+                    <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <div class="active item">
+                                <div class="col-sm-5">
+                                    <div class="feat-text">
+                                        <span class="feat-text-head">DETAILED &amp; PERSONALIZED PERFORMANCE ANALYSIS</span>
+                                        <span class="feat-text-text">Studying and taking tests go hand-in-hand with performance analysis. We give you the most in-depth analysis for 
+                                        every test you take so that you can track your growth in each topic test-by-test.</span>
+                                        <button type="button" class="btn btn-success">GET STARTED</button>
+                                    </div>
+                                </div>
+                            <div class="col-sm-7">
+                            <img class="feat-image" src="images/testbook1.jpg" style="width:600px;"" height:453px;">
+                            </div>
+                            </div>
+                        <div class="item">
+                            <div class="col-sm-5">
+                                <div class="feat-text">
+                                    <span class="feat-text-head">QUESTIONS EXPECTED IN ACTUAL EXAMS AND MORE!</span>
+                                    <span class="feat-text-text">Every question, every solution, meticulously created by our team of toppers and experts, based on the latest exam patterns. The mock tests are the closest exam experience you will find to the actual paper.</span>
+                                    <button type="button" class="btn btn-success">GET STARTED</button>
+                                </div>
+                            </div>
+                            <div class="col-sm-7">
+                                <img class="feat-image" src="images/testbook2.jpg" style="width:600px;"" height:453px;">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-sm-5">
+                                <div class="feat-text">
+                                    <span class="feat-text-head">THE FASTEST ONLINE LEARNING EXPERIENCE</span>
+                                    <span class="feat-text-text">We know about how precious your time is. Get the advantage of the latest technology to kickstart your exam preparation and get the finest learning experience - on Website and App. Check them all out!</span>
+                                    <button type="button" class="btn btn-success">GET STARTED</button>
+                                </div>
+                            </div>
+                            <div class="col-sm-7">
+                                <img class="feat-image" src="images/testbook3.jpg" style="width:600px;"" height:453px;">  
+                            </div>
+                        </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            
+            
+            
+            
+            </div>      
+            
+            
+            
+            <!-- Horizontal Carousal -->
+            <div style="background-color:#f7f7f7;margin-top:3%;margin-bottom:5%;" class="user-views"><br>
                <h2 class="title"> WHY  WE ARE LOVED</h2>
                <div id="myCarousel2" class="carousel slide text-center" >
                 <!-- Indicators -->
@@ -169,6 +300,52 @@
                 </a>
               </div>
           </div>
+            
+            <!-- numbers -->
+            <div class="container-fluid">
+                <div class="col-md-1" style="margin-left:4%;"></div>
+                <div class="col-md-3">
+                   <h3 class="numbers">846,278+</h3>
+                    <p class="numtext">STUDENTS LOVE US</p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="numbers">126,988,880+</h3>
+                    <p class="numtext">QUESTION ATTEMPTED</p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="numbers">2,068,829+</h3>
+                    <p class="numtext">TESTS ATTEMPTED</p>                
+                </div>
+                <div class="col-md-1"></div>
+                
+                    
+            
+            </div>
+            
+            <!-- another image -->
+            <div class="container-fluid bgimage">
+                    <div class="content2">
+                        <h1 class="mainheading2">Start Your Exam Preparation Now!</h1>
+                        <h5 class="downtext2">PRACTICE, ANALYSE AND IMPROVE!</h5><br><br>
+                        <a class="btn btn-success start-btn" href="#">GET STARTED FOR FREE</a>
+                    </div>
+                </div>
+            
+            </div>
+            <!-- news container -->
+            <div class="container-fluid">
+            <br><div class="col-sm-2"></div>
+            <div class="col-sm-10">
+                <span class="newstext">In the News</span>
+                <img class="news" src="images/yourstory.png"/>
+                <img class="news" src="images/the-hindu.png"/>
+                <img class="news" src="images/deccan-cron.png"/>
+                <img class="news" src="images/indian-express.png"/>
+                <img class="news" src="images/news18.png"/>
+            </div>
+        
+            </div>
+            
             <!-- KANIKA FOOTER -->
             <hr size=2><br>
             
