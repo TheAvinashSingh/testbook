@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+.bg-image {
+    background-image: url(../images/backgimage.jpg) !important;
+    background-size: cover;
+}
+.navbar-brand {
+    margin-left: 2% !important;
+}
+.navbar-nav {
+    margin-right: 2% !important;
+}
+.mainheading {
+    font-family: Roboto !important;
+    font-size: 3em;
+    letter-spacing: 5px !important;
+}
+.content {
+    margin-top: 12%; 
+    text-align: center;
+    margin-bottom: 10%;
+    color: #fff !important;
+}
+.downtext {
+    font-family: Roboto !important;
+    font-size: 0.8em;
+    letter-spacing: 3px !important;
+}
+.start-btn {
+    padding: 1.5% 3% !important;
+    font-size: 1.2em !important;
+    border-radius: 30px !important;
+    font-family: Roboto !important;
+}
+.link-btn:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+.link-btn {
+    color: #fff !important;
+    background-color: transparent !important;
+    font-weight: bold;
+    opacity: 0.85;
+}
+.container-fluid {
+    margin: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.special {
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 1%;
+    color: #fff !important;
+    background-color: transparent !important;
+    font-weight: bold;
+    padding: 5% 8% !important;
+    margin-top: 17%;
+    
+}
+.special:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+    
+}
+.afternav {
+    color: #364763;
+    text-align: center;
+    margin-top: 5%;
+}
+.afternavtext {
+    color: #7c899e !important;
+    font-size: 1.2em !important;
+    text-align: center;
+}
+/* KANIKA CSS */
+.title{
+	margin-top:10px;
+	text-align:center;}
+	.item{
+	height:300px;
+	background-color:none;
+	}
+	
+	.item h4{
+	width:70%;
+	text-align:center;}
+	
+	 .item p {
+    max-width: 768px;
+    margin: auto;
+    min-height: 132px;
+    color: #8e9aa9;
+    line-height: 1.9;
+    font-weight: 500;
+	padding-top:30px;
+	padding-bottom:20px;
+}
+	.title{
+	position: relative;
+    text-align: center;
+    color: #1fbad6;
+    text-transform: uppercase;
+    font-weight: 400;
+	}
+	.carousel-control.right
+	{
+	background-image:none;}
+	.carousel-control.left
+   {
+	background-image:none;}
+   .user-details
+   {position:absolute;
+   bottom:0;
+
+   }
+   
+   .user-details
+   {
+		position:absolute;
+		margin-left:44%;
+   }
+   .people-views
+   {
+    transition-timing-function: ease-in-out;
+	
+	}
+      .bubble {
+          visibility: hidden;
+      }
+  /* FOOTER STYLE */
+
+body {
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    }
+	 .ft-content span{
+	display:block;}
+	.ft-title {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+}
+	.ft-content ul li a {
+    display: inline-block;
+    color: grey;
+    font-weight: 500;
+	}
+	
+	.ft-content ul
+	{
+	list-style:none;
+	padding:0;
+	}
+	 .ft-content ul li a:hover
+	{
+	list-style:none;
+	padding:0;
+	 color: black;
+	
+	 }
+	 .ft-img
+	 {
+	 width:100px;
+	 height:40px;
+	 margin-bottom:30px;
+	 }
+	.ft-title
+	{
+	font-weight:bold;
+	}
+	.fl-content li
+	{
+	text-decoration:none;
+	display:inline;
+	list-style:none;
+	font-size:190%;
+	-webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+	}
+	.glyphicon1
+	{
+	display:block;
+	line-height:300%;
+	}
+	.glyphicon1-text span
+	{
+	display:block;
+	line-height:150%;
+	}
+	.glyphicon1 glyphicon glyphicon-envelope
+	{line-height:300%;
+	}
+	.glyphicon glyphicon-earphone
+	{
+		margin-top:1400px;
+	}	
+
+.footertext {
+    color: grey;
+}
+.footertext:hover {
+    color: #323232;
+    text-decoration: underline;
+}
